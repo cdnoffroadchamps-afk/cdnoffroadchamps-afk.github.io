@@ -1,0 +1,271 @@
+body {
+    background-color: Gold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+    padding-top: 50px;
+    font-size: 3rem;
+    font-weight: bold
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+p {
+    color:darkblue;
+}
+
+#title {
+    background-color: gold;
+    color: rgb(0, 0, 0);
+    padding: 20px 20px 20px 20px;
+}
+
+#features {
+    background-color: goldenrod;
+    padding: 7% 15%;
+    margin: 0% 10%;
+    position: relative;
+}
+
+#pictures {
+    background-color: gold;
+    color: black;
+    padding: 7% 15%;
+    text-align:center;
+}
+
+#press {
+    background-color: gold;
+    color: black;
+    padding: 7% 10%;
+    text-align:center;
+}
+
+#pricing {
+    background-color: gold;
+    text-align: center;
+    padding:7% 5%;
+    margin: 0% 10%;
+}
+
+#hours {
+    background-color: goldenrod;
+    text-align: center;
+    color: black;
+    padding: 7% 5%;
+    margin: 0% 10%;
+
+}
+
+#location {
+    background-color: gold;
+    text-align: center;
+    padding: 5% 5%
+}
+
+#transponders {
+    background-color: goldenrod;
+    text-align: center;
+    padding: 5% 5%;
+}
+
+#socials {
+    background-color: goldenrod;
+    text-align: center;
+    padding: 5% 20%;
+    color: black;
+}
+
+#footer {
+    padding: 20px 0px 15px 0px;
+    color: darkgray;
+    text-align: right;
+    padding-right: 5%;
+}
+
+#rules {
+    background-color: gold;
+    text-align: center;
+    padding: 5% 5%;
+    position: relative;
+}
+
+#registration {
+    background-color: gold;
+    text-align: center;
+    padding: 5% 5%;
+    position: relative;
+}
+
+.navbar {
+    background-color: goldenrod;
+    padding-bottom: 1rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.container-fluid {
+    padding: 3% 5% 15%;
+}
+
+.ddlogomain {
+    height: 40px;
+    padding-left: 20px;
+}
+
+.title-image {
+    width: 50%;
+    transform: rotate(25deg);
+    padding: 5%;
+    position: absolute;
+    right: 10%
+}
+
+.pictures {
+    width: 100%;
+    margin: 20px;
+}
+
+.press-pictures {
+    width: 20%;
+    margin: 15px;
+}
+
+.sponsors-title {
+    margin: 2%;
+    text-align: center;
+}
+
+.sponsors-title img {
+    width: 85%;
+    margin: auto;
+}
+
+.sponsors-secondary {
+    margin: 2%;
+    text-align: center;
+}
+
+.sponsors-secondary img {
+    width: 60%;
+    margin: auto;
+}
+
+.sponsors-class {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.sponsors-associate {
+    width: 25%;
+    margin: 2%;
+    text-align: center;
+}
+
+.sponsors-associate img {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.feature-box{
+    text-align: center;
+}
+
+.feature-icon {
+    color:black;
+    margin: 1rem;
+}
+
+.feature-icon:hover {
+    color:#0d0086;
+}
+
+.pricing-icon {
+    color: #0d0086;
+    margin: 1rem;
+}
+
+.pricing-icon:hover {
+    color: #0d0086
+}
+
+.hours-icon {
+    color: black;
+    margin: 1rem;
+}
+
+.hours-icon:hover {
+    color: #0d0086;
+}
+
+.hours-display {
+    min-width: 50px;
+}
+
+.location-icon {
+    color:gold;
+    margin: 1rem;
+}
+
+.location-icon:hover {
+    color: #0d0086;
+}
+
+.map-responsive {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.socials-icon {
+    color: black;
+    margin: 1rem;
+}
+
+.socials-icon:hover {
+    color: #0d0086;
+}
+
+@media (max-width: 767px) {
+
+    #location {
+
+    }
+
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
